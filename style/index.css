@@ -1,0 +1,20 @@
+#nav{
+    color:blueviolet;
+    background-color: green;
+    height:50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+#in{
+    width:30%;
+    padding: 10px;
+}
