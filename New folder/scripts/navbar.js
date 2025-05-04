@@ -1,5 +1,12 @@
-const navbar=`<img src=VegaPoint.png/>
-<input id="in"type="text" placeholder="search for product">
-<button id="location">Select Location</button>
-<button id="signup">Login/Signup</button> `;
-    document.getElementById("nav").innerHTML=navbar
+const navbar=`   <div id="nav-container">
+        <a id="logo" href="">Mypersonal app</a>
+    </div>
+    <div id="nav-links">
+    <a href="#"></a>
+    <a href="signup.html">Signup</a>
+    <a href="login.html">Login</a>
+    <a href="todos.html">Todos</a>
+    <a href="expenses.html">Expenses</a>
+</div>`
+    
+    document.getElementById("nav").innerHTML=navbar;
